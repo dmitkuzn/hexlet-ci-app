@@ -1,5 +1,6 @@
 # file: .github/workflows/manage-project.yml
 name: manage-project
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
