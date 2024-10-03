@@ -3,7 +3,7 @@ name: manage-project
 jobs:
   build:
     runs-on: ubuntu-latest
-  steps:
+    steps:
       # Клонируем репозиторий
       - uses: actions/checkout@v4
       # Устанавливаем Node.js
@@ -16,4 +16,3 @@ jobs:
       - run: make test
       # запуск линтера
       - run: make lint
-
